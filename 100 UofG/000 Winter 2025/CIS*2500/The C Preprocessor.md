@@ -1,3 +1,7 @@
+**Class:** [[CIS*2500]]
+**Date:** 29-03-2025
+**Topics:**  #C #compilation #macros #includes #conditionalcompilation
+
 The C preprocessor is a process that occurs before [[Compilation]].
 
 It performs 3 operations all of which involve replacing something in the code before sending it over to the compile to turn it into an executable.

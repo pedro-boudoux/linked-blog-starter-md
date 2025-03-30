@@ -1,3 +1,7 @@
+**Class:** [[CIS*2500]]
+**Date:** 29-03-2025
+**Topics:**  #compilation #linking #compiler 
+
 ## Process of Compilation
 
 ### The Compiler

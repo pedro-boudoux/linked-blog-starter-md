@@ -1,3 +1,7 @@
+**Class:** [[CIS*2500]]
+**Date:** 29-03-2025
+**Topics:**  #gcc #compiler #compilation #commands 
+
 gcc is the compiler we use to compile C code (duh).
 
 ## Actually Compiling

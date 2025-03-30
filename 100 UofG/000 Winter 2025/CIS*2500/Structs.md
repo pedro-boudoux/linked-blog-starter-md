@@ -1,3 +1,8 @@
+**Class:** [[CIS*2500]]
+**Date:** 29-03-2025
+**Topics:** #C #structs #object   
+
+
 A struct is a custom data type which can contain other data types inside (even another struct).  Each *element* inside a struct is called a *member*, members can also be arrays or pointers of data types.
 
 Structs can be defined in C in the following way:

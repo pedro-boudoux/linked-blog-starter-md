@@ -1,6 +1,9 @@
+**Class:** [[CIS*2500]]
+**Date:** 29-03-2025
+**Topics:**  #makefiles #files #compilation #compiler #commands
 
 ## Makefiles
-To make it easier to build large programs UNIX/Linux systems use the concept of a *makefile* and *make utility*.
+To make it easier to build large programs UNIX/Linux systems use the concept of a *makefile* and *make utility*.{{date:YYYY-MM-DD}}
 
 ### Writing makefiles
 To get started on using the make utility, you first need to write your makefile.

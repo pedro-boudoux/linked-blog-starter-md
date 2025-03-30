@@ -1,3 +1,8 @@
+**Class:** [[CIS*2500]]
+**Date:** 29-03-2025
+**Topics:**  #binaryfiles #files #C #sequentialfiles
+
+
 There are two types of files which we will be touching up on in this course, they are:
 	1. *Sequential Files*
 	2. [[Binary Files]]
@@ -68,3 +73,6 @@ To do that, we use the function `fclose()`, which takes only one argument, `fptr
 fclose(fptr);
 ```
 What is basically does is that, once we're done doing whatever operation we were doing with the file, we close access to the file by freeing `fptr` to avoid memory leaks or any other unwanted behaviour.
+
+## File Reading Modes
+For file modes, please visit [[File Modes]], I don't want to include it in this note because it pertains to both binary and sequential files.
