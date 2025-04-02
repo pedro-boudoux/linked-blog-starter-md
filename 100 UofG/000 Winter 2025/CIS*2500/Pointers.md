@@ -28,6 +28,9 @@ The above snippet of code declares a variable `count` and then a pointer `ptr` t
 ## Null Pointers
 `NULL` pointers simply show that the pointer variable doesn't currently point to any location.
 
+## Pointers to Constant
+*Pointers to constant*, denoted `const void*`, or `const <type>*` are pointers that can change the value of the address it points to but cannot change the value at that address.
+
 ## Pointer Arithmetic
 C allows us to perform arithmetic (addiction and subtraction) on pointers to array elements.
 

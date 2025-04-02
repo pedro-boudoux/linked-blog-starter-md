@@ -1,6 +1,6 @@
 **Class:** [[CIS*2500]]
 **Date:** 29-03-2025
-**Topics:**  #datastructures #algorithms #C #self-referential #structures
+**Topics:**  #datastructures #algorithms #C #self-referential #structures, [[Structs]]
 
 ## Linked Lists
 A *linked list* or *list* is a common structure with many applications, it is one of the easiest structures to build and use.

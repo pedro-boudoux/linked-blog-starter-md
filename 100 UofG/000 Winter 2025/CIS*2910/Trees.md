@@ -40,6 +40,9 @@ If $v$ is a vertex in a *tree*, then the *subtree* rooted at $v$ is the subgraph
 A *rooted tree* is an *m-ary* tree if every internal vertex has no more than $m$ children. 
 An *m-ary* tree is said to be full if *every internal node* has exactly $m$ children.
 
+#### Forests
+A *forest* is a disjoint collection of *one or more* trees. It is an *undirected graph* with no cycles.
+
 ## Terms for Trees
 The *level* of a tree is the *length of the path* from $v$ to the *root*. The *root* is at *level 0*.
 
