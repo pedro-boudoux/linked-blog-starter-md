@@ -4,7 +4,13 @@
 
 ## Planar [[Graphs]]
 A graph representation of a graph, $G = (V,E)$ is *planar* if it has no edges crossing each other.
-A *planar graph* has *regions* which are areas of the graph separated from other areas by *edges*.
+A *planar graph* has *regions* which are areas of the graph separated from other areas by *edges*. 
+
+### Conditions for a graph to be Planar
+If a graph is *planar* then it must satisfy the following 2 conditions:
+1. Have a vertex of degree less than 6.
+2. $m \leq 3n-6$ 
+NOTE: helps to know the *Handshaking Theorem* (see in [[Graphs]]).
 
 ### Theorems of Planar Graphs
 

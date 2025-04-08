@@ -1,4 +1,4 @@
-**Class:** [[CIS*2500]]
+**Class:** [[remote/100 UofG/000 Winter 2025/CIS*2500/CIS*2500]]
 **Date:** 29-03-2025
 **Topics:** #C #structs #object   
 
@@ -23,10 +23,10 @@ Typedef is often used with structs but can also be used with other things.
 Using typedef with structs:
 ```
 typedef struct Student {
-char firstName[MAX_LENGTH];
-char lastName[MAX_LENGTH];
-int id;
-float assignmentMarks[4];
+	char firstName[MAX_LENGTH];
+	char lastName[MAX_LENGTH];
+	int id;
+	float assignmentMarks[4];
 }StudentRecord;
 ```
 ... this means we can declare a variable like `StudentRecord x;` instead of typing `struct Student x;`.

@@ -5,10 +5,11 @@
 ## Euler Circuits and Trails
 
 ### Euler Trail
-An *Euler trail* is an *open trail* that traverses every edge exactly once. If a graph $G$ has an *Euler train* then it must have *exactly 2 vertices of odd degree*.
+An *Euler trail* is an *open trail* that traverses every edge exactly once. If a graph $G$ has an *Euler trail* then it must have *exactly 2 vertices of odd degree*.
 
 ### Euler Circuit
 An *Euler circuit* is a *circuit* that traverses every edge exactly once. If a graph $G$ has an *Euler circuit* then all of its vertices *must have an even degree*.
+If a graph is *connected* and all of its vertices have an *even degree* then it must have an *Euler Circuit*.
 
 ## Hamilton Paths and Cycles
 

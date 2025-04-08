@@ -1,4 +1,4 @@
-**Class:** [[CIS*2500]]
+**Class:** [[remote/100 UofG/000 Winter 2025/CIS*2500/CIS*2500]]
 **Date:** 01-04-2025
 **Topics:** [[Algorithms]]
 
@@ -9,7 +9,7 @@ All *sorting algorithms* shown in this page will sort the elements in *ascending
 Compares adjacent elements, swapping them if necessary, eventually "bubbling" up the largest element to the end of the array. This is repeated until the array in completely sorted.
 Time Complexity:
 - *Worst Case:* $O(n^2)$
-- *Average Time Complexity*: $O(n^2)$
+- *Average Time Complexity:* $O(n^2)$
 - *Best Case Time Complexity:* $O(n)$ (the array is already sorted)
 ```c
 void bubbleSort (int array[SIZE])
@@ -17,7 +17,7 @@ void bubbleSort (int array[SIZE])
 	int temp;
 
 	for (int i = 0; i < SIZE - 1; i++) {
-		for (int j = 0; j < SIZE - i -1; j++) {
+		for (int j = 0; j < SIZE - i - 1; j++) {
 			if (array[j] > array[j+1])
 			{
 				temp = array[j];
@@ -60,7 +60,7 @@ void selectionSort (int array [SIZE])
 ### Insertion Sort
 *Insertion Sort* works by partitioning the array into a sorted and an unsorted part. Elements from the unsorted part are compared with elements in the sorted part and placed at the correct position in the sorted part.
 Time Complexity:
-- *Worst Case:* $O(n)$
+- *Worst Case:* $O(n^2)$ 
 - *Average Time Complexity:* $O(n^2)$
 - *Best Case Time Complexity:* $O(n^2)$ 
 ```c
@@ -142,9 +142,11 @@ void merge(int arr[], int left, int mid, int right) {
     int n2 = right - mid;
     int L[n1], R[n2];
 
+	// splits the array in half
     for (int i = 0; i < n1; i++) L[i] = arr[left + i];
     for (int j = 0; j < n2; j++) R[j] = arr[mid + 1 + j];
 
+	
     int i = 0, j = 0, k = left;
     while (i < n1 && j < n2) {
         if (L[i] <= R[j]) arr[k++] = L[i++];

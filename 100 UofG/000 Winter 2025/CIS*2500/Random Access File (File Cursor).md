@@ -1,4 +1,4 @@
-**Class:** [[CIS*2500]]
+**Class:** [[remote/100 UofG/000 Winter 2025/CIS*2500/CIS*2500]]
 **Date:** 29-03-2025
 **Topics:**  #files #filemodes #binaryfiles #sequentialfiles #C 
 

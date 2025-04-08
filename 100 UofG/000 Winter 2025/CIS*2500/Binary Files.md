@@ -1,4 +1,4 @@
-**Class:** [[CIS*2500]]
+**Class:** [[remote/100 UofG/000 Winter 2025/CIS*2500/CIS*2500]]
 **Date:** 29-03-2025
 **Topics:**  #binaryfiles #files #structs 
 
@@ -15,11 +15,11 @@ In Binary Files, text is still stored using ASCII, but using their 7-bit ASCII n
 
 Numbers are stored in their binary format according to how many bytes their type takes up (`int` 4 bytes vs `float` 8 bytes).
 
-Structures can also be stored in Binary Files.
+Structures can also be stored in Binary Files. 
 
 This is how an integer would be stored in a binary file:
-```
-10383 => 00000000 00000000 00010100 10001111
+```c
+10383 -> 00000000 00000000 00010100 10001111
 ```
 ... if this number was stored in a text file, it would take up 5 bytes but since it was stored in a binary file it only takes up 4.
 
@@ -27,7 +27,7 @@ Binary representations can take up less space but cannot be edited by a text edi
 
 ## Writing Data to Binary Files
 Writing data to a binary file requires the `fwrite()` function. This writes the data in binary form (raw bits) and not as ASCII.
-```
+```c
 fwrite(ptr, size, number, fptr);
 
 // ptr = pointer to data that will be written to disk
@@ -38,7 +38,7 @@ fwrite(ptr, size, number, fptr);
 
 ## Reading Data to Binary Files
 Reading binary data from a binary file is done with `fread()`. It has the same parameters as `fwrite()`.
-```
+```c
 fread(ptr, size, number, fptr);
 
 // ptr = array that data will be stored in or address of data structure
@@ -55,7 +55,7 @@ When `fread()` is used, the system is really just reading the number of bytes eq
 When it comes to reading and writing structures, the programmer must take into consideration that structures are padded so that each element begins on a 4 byte boundary.
 
 Consider the following structure:
-```
+```c
 struct generic {
 
 char letter;

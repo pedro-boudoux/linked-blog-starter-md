@@ -28,3 +28,9 @@ A *graph* $G = (V,E)$ is a *directed graph* if $E$ is a set of *ordered pairs* o
 
 ## Representation of Graphs
 See [[Methods of Representing Graphs]].
+
+## Theorems
+
+### Handshaking Theorem
+The sum of degrees of all vertices is equal to twice the number of edges.
+$$\sum\limits_{v \in V} deg(v) = 2m$$

@@ -1,4 +1,4 @@
-**Class:** [[CIS*2500]]
+**Class:** [[remote/100 UofG/000 Winter 2025/CIS*2500/CIS*2500]]
 **Date:** 01-04-2025
 **Topics:** [[Function Pointers]], [[Pointers]], [[Memory]]
 

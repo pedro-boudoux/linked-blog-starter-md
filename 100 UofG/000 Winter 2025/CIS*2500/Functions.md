@@ -1,4 +1,4 @@
-**Class:** [[CIS*2500]]
+**Class:** [[remote/100 UofG/000 Winter 2025/CIS*2500/CIS*2500]]
 **Date:** 29-03-2025
 **Topics:**  #functions 
 
@@ -24,4 +24,4 @@ Functions are stored in the heap part of the memory which means that they can al
 Variables declared inside a function.
 
 #### Global Variables
-Variables declared outside of any function (these are banned in [[CIS*2500]]).
+Variables declared outside of any function (these are banned in [[remote/100 UofG/000 Winter 2025/CIS*2500/CIS*2500]]).
