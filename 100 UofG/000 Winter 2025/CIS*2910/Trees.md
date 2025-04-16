@@ -1,4 +1,4 @@
-**Class:** [[CIS*2910]]
+**Class:** [[Discrete Structures in Computing II]]
 **Date:** 01-04-2025
 **Topics:** [[Graphs]], [[Connectivity]]
 

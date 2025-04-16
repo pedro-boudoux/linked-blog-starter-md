@@ -1,4 +1,4 @@
-**Class:** [[CIS*1050]]
+**Class:** [[Web Design and Development]]
 **Date:** 10-04-2025
 **Topics:**  
 

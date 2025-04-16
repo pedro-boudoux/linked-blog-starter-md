@@ -1,4 +1,4 @@
-**Class:** [[CIS*2500]]
+**Class:** [[Intermediate Programming]]
 **Date:** 07-04-2025
 **Topics:**
 

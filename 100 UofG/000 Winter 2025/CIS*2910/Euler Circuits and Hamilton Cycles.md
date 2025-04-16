@@ -1,4 +1,4 @@
-**Class:** [[CIS*2910]]
+**Class:** [[Discrete Structures in Computing II]]
 **Date:** 01-04-2025
 **Topics:** [[Connectivity]], [[Graphs]], 
 
@@ -6,6 +6,8 @@
 
 ### Euler Trail
 An *Euler trail* is an *open trail* that traverses every edge exactly once. If a graph $G$ has an *Euler trail* then it must have *exactly 2 vertices of odd degree*.
+
+An *Euler Trail* begins and ends at an edge with *odd degree*.
 
 ### Euler Circuit
 An *Euler circuit* is a *circuit* that traverses every edge exactly once. If a graph $G$ has an *Euler circuit* then all of its vertices *must have an even degree*.

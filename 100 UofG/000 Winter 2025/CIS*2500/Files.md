@@ -1,4 +1,4 @@
-**Class:** [[CIS*2500]]
+**Class:** [[Intermediate Programming]]
 **Date:** 29-03-2025
 **Topics:**  #binaryfiles #files #C #sequentialfiles
 
